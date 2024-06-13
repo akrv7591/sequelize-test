@@ -1,0 +1,17 @@
+{
+  "name": "sequelize-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "akrv7591@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "yarn clean && tsc -p . && git add dist"
+  },
+  "dependencies": {
+    "sequelize": "^6.37.3",
+    "sequelize-typescript": "^2.1.6",
+    "typescript": "^5.4.5",
+    "uuid": "^10.0.0"
+  }
+}
